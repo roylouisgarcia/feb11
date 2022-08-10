@@ -36,7 +36,6 @@ p{
 .message{
     text-align: left;
     padding: 70px;
-    font-size: 1.4em;
     width: 100%;
     line-height: 1.5em;
     color: black;
@@ -72,30 +71,56 @@ video#bgvid {
 }
 
 
+.message{
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    line-height: 1.6em;
+}
+
 .container{
     font-family: "mystyle";     
 }
 
-body {
-}
 
 #poem, .videointro{
-        font-size: 1.8em;
         color:#fff;
+        background: rgba(25, 25, 25, .7);
+        filter: alpha(opacity=.60);
+        padding-left: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        border-radius: 25px;
 }
 
+.introduction{
+    font-size: 1.5em;
+    color:#FF8000;
+}
 .firstletters{
-    font-size: 1.8em;
+    font-size: 1.6em;
     color:#FF8000;
 }
 
 @media screen and (max-width: 480px) {
+    video{
+        width: 100%;
+    }
 .message{
+    font-size: smaller;
     margin-top: 10px;
     text-align: left;
     padding: 10px;
-    font-size: .9em;
     width: 100%;
     line-height: 1.6em;
+}
+.firstletters{
+    text-align: center;
+}
+
+#poem{
+    padding-left: 0%;
 }
 }
