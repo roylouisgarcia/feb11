@@ -1,39 +1,42 @@
 @font-face {
-  font-family: "jd";
-  src: url("jd.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "jd";
+    src: url("jd.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 @font-face {
-  font-family: "mystyle";
-  src: url("mystyle.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "mystyle";
+    src: url("mystyle.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 @font-face {
-  font-family: "typewriter";
-  src: url("typewriter.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "typewriter";
+    src: url("typewriter.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-#psnote, #letter, #poem{
+#psnote,
+#letter,
+#poem {
     display: none;
-    
+
 }
 
-.clearfont{
+.clearfont {
     font-family: 'typewriter';
 }
 
-p{
+p {
     text-indent: 30px;
 }
-.message{
+
+.message {
     text-align: left;
     padding: 70px;
     width: 100%;
@@ -41,19 +44,19 @@ p{
     color: black;
 }
 
-.highlighted{
+.highlighted {
     background-color: #FFFF00;
     color: black;
 }
 
-apart{
+apart {
     margin-left: 10px;
     border: 1px;
     border-style: inset;
     border-color: burlywood;
 }
 
-video#bgvid { 
+video#bgvid {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -67,11 +70,11 @@ video#bgvid {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 
-.message{
+.message {
     margin-top: 10px;
     font-size: 1.1em;
     text-align: left;
@@ -80,47 +83,57 @@ video#bgvid {
     line-height: 1.6em;
 }
 
-.container{
-    font-family: "mystyle";     
+.container {
+    font-family: "mystyle";
 }
 
-
-#poem, .videointro{
-        color:#fff;
-        background: rgba(25, 25, 25, .7);
-        filter: alpha(opacity=.60);
-        padding-left: 50px;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        border-radius: 25px;
+#yanyan {
+    width: 100%;
+    max-width: fit-content;
+    padding: 20px;
+    background: rgba(25, 25, 25, .7);
 }
 
-.introduction{
+#poem,
+.videointro {
+    color: #fff;
+    background: rgba(25, 25, 25, .7);
+    filter: alpha(opacity=.60);
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 25px;
+}
+
+.introduction {
     font-size: 1.5em;
-    color:#FF8000;
+    color: #FF8000;
 }
-.firstletters{
+
+.firstletters {
     font-size: 1.6em;
-    color:#FF8000;
+    color: #FF8000;
 }
 
 @media screen and (max-width: 480px) {
-    video{
+    #yanyan {
         width: 100%;
+        padding-left: 0%;
+        background: rgba(25, 25, 25, .7);
     }
-.message{
-    font-size: smaller;
-    margin-top: 10px;
-    text-align: left;
-    padding: 10px;
-    width: 100%;
-    line-height: 1.6em;
-}
-.firstletters{
-    text-align: center;
-}
 
-#poem{
-    padding-left: 0%;
-}
+    .message {
+        font-size: smaller;
+        margin-top: 10px;
+        text-align: left;
+        padding: 10px;
+        width: 100%;
+        line-height: 1.6em;
+    }
+
+    .firstletters {
+        text-align: center;
+    }
+
+
 }
