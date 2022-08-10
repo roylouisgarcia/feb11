@@ -12,7 +12,7 @@ This template is a two-page made using HTML, CSS and Vanilla JavaScript. It feat
 #### - Video Capture:
 
 
-[![Watch the video](https://github.com/roylouisgarcia/feb11/blob/master/yt.png)](https://youtu.be/7wvhKcAkdJA)
+[![Watch the video](https://github.com/roylouisgarcia/feb11/blob/master/yt.jpg)](https://youtu.be/7wvhKcAkdJA)
 
 
 ------
